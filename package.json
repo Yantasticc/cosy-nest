@@ -9,8 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-popover": "^1.0.7",
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "date-fns": "^3.0.6",
+    "lucide-react": "^0.302.0",
     "next": "14.0.3",
     "react": "^18",
+    "react-date-picker": "^10.6.0",
+    "react-datepicker": "^4.25.0",
+    "react-day-picker": "^8.10.0",
     "react-dom": "^18",
     "react-icons": "^4.12.0",
     "tailwind-merge": "^2.1.0",
