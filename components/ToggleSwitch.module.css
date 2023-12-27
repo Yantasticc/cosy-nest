@@ -1,0 +1,47 @@
+
+.toggleContainer {
+  display: flex;
+  align-items: center;
+}
+
+.toggleButton {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+.text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 17px;
+  transition: transform 0.3s ease;
+  padding-right: 2rem;
+}
+
+.domestic {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.international {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+.international .text:first-child {
+  transform: translateX(-100%);
+}
+
+.domestic .text:last-child {
+  transform: translateX(100%);
+}
