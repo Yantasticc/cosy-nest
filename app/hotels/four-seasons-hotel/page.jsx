@@ -56,7 +56,7 @@ const page = () => {
           <div className="text-3xl font-extrabold">
             <h1 className="mb-5">Top amenities</h1>
           </div>
-          <div className='grid grid-cols-3 gap-y-7 text-xl'>
+          <div className='grid sm:grid-cols-3 grid-cols-2 gap-y-7 text-xl'>
             <div className="flex ">
               <div className="mr-5">
                 <BiWifi />
@@ -97,7 +97,7 @@ const page = () => {
                 Parking
               </div>
             </div>
-            <div className="flex">
+            <div className="lg:flex hidden ">
               <div className="mr-5">
                 <MdOutlinePets />
               </div>
