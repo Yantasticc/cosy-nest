@@ -97,7 +97,7 @@ const page = () => {
                 Parking
               </div>
             </div>
-            <div className="lg:flex hidden ">
+            <div className="lg:flex md:flex hidden ">
               <div className="mr-5">
                 <MdOutlinePets />
               </div>
