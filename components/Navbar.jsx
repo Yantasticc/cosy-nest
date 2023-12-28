@@ -1,5 +1,6 @@
-import { useState } from "react";
+'use client'
 
+import { useState } from "react";
 import { MdOutlineTaxiAlert } from "react-icons/md"; 
 import { MdAttractions } from "react-icons/md"; 
 import { BiCar } from "react-icons/bi"; 

@@ -8,9 +8,6 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      <div>
-        <Navbar />
-      </div>
       <div> 
         
     <div className='flex lg:flex-row flex-col'>

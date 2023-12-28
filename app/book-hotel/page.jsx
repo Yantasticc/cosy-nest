@@ -12,9 +12,6 @@ const Page = () => {
   return (
     <div>
       <div>
-        <Navbar />
-      </div>
-      <div>
         <div className='flex lg:flex-row flex-col'>
           <div className='lg:h-[40%] lg:w-[60%] w-screen p-5'>
             <img className='rounded-3xl max-w-full' src="https://media.cntraveler.com/photos/5da73e6f2b01d600080ef7da/master/w_960%2Cc_limit/Four-Seasons-Hotel-Chicago_CFS_1217.jpg" alt="/" />
